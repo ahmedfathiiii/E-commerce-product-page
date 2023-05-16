@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="master.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="blackback"></div>
+  <div class="lightboxmain">
+    <div class="lightbox">
+      <img src="./images/icon-close.svg" alt="" width="15px" class="closebox">
+      <img src="images/image-product-1.jpg" alt="" class="mainimgview ">
+      <div class="thumbs">
+        <img src="images/image-product-1-thumbnail.jpg" alt="" class="thumbview transition active">
+        <img src="images/image-product-2-thumbnail.jpg" alt="" class="thumbview transition">
+        <img src="images/image-product-3-thumbnail.jpg" alt="" class="thumbview transition">
+        <img src="images/image-product-4-thumbnail.jpg" alt="" class="thumbview transition">
+      </div>
+    </div>
+  </div>
+
+  <div class="navbarmobile">
+
+    <ul class="navbarmobilelist">
+      <img src="images/icon-close.svg" alt="" class="closeside">
+      <li>Collections</li>
+      <li>Men</li>
+      <li>Women</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+  <header>
+    <div class="container">
+      <div class="mainbar">
+        <img src="images/icon-menu.svg" alt="" class="hamburger">
+        <img class="logo" src="images/logo.svg" alt="">
+        <ul class="navbar">
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="cartacc">
+        <div class="maincart">
+          <img src="images/icon-cart2.svg" alt="" class="cart">
+          <div class="cartcount"></div>
+        </div>
+        <img src="images/image-avatar.png" alt="" class="acc">
+      </div>
+    </div>
+    <div class="cartproduct">
+      <h4>Cart</h4>
+      <div class="empty">Your cart is empty</div>
+      <div class="productcartcheckin">
+        <img class="productcartphoto" src="images/image-product-1-thumbnail.jpg" alt="">
+        <div class="productname">
+          <p class="productcartname">Fall Limited Edition Sneakers</p>
+          <p class="productcartprice"></p>
+          <span class="productcarttotalprice">$375.00</span>
+        </div>
+        <img class="delete" src="images/icon-delete.svg" alt="">
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="mainimgmobile">
+      <div class="carousal">
+        <span class="carousalbut prev"></span>
+        <span class="carousalbut next"></span>
+        <ul>
+          <li class="slide show">
+            <img src="images/image-product-1.jpg" alt="" class="carousalimg ">
+          </li>
+          <li class="slide">
+            <img src="images/image-product-2.jpg" alt="" class="carousalimg">
+          </li>
+          <li class="slide">
+            <img src="images/image-product-3.jpg" alt="" class="carousalimg">
+          </li>
+          <li class="slide">
+            <img src="images/image-product-4.jpg" alt="" class="carousalimg">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="productimg">
+        <img src="images/image-product-1.jpg" alt="" class="mainimg ">
+        <div class="thumbs">
+          <img src="images/image-product-1-thumbnail.jpg" alt="" class="thumb transition active">
+          <img src="images/image-product-2-thumbnail.jpg" alt="" class="thumb transition">
+          <img src="images/image-product-3-thumbnail.jpg" alt="" class="thumb transition">
+          <img src="images/image-product-4-thumbnail.jpg" alt="" class="thumb transition">
+        </div>
+      </div>
+      <div class="productinfo">
+        <small>SNEAKER COMPANY</small>
+        <H1>Fall Limited Edition Sneakers</H1>
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        <div class="priceanddiscount">
+          <div class="price">
+            <h2 class="pricenum">$125.00</h2>
+            <h4>50%</h4>
+          </div>
+          <h4 class="discount">$250.00</h4>
+        </div>
+        <div class="buybutton">
+          <div class="productnum">
+            <span class="minus">-</span>
+            <span class="num">0</span>
+            <span class="plus">+</span>
+          </div>
+          <div class="addtocart">
+            <img src="images/icon-cart.svg" alt="" class="cart">
+            <span>Add to cart</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
