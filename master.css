@@ -221,7 +221,7 @@ p {
 
 .cartproduct {
     position: absolute;
-    width: 320px;
+    max-width: 320px;
     background-color: var(--White);
     padding: 24px;
     right: 5%;
@@ -292,7 +292,7 @@ p {
 
 @media (max-width: 767px) {
     .container {
-        padding: 20px 16px;
+        margin: 20px 16px;
     }
 
     .hamburger {
@@ -400,12 +400,12 @@ p {
 
     .productnum {
         max-width: 400px;
-        width: 100%;
+        width: 90%;
     }
 
     .addtocart {
         max-width: 400px;
-        width: 100%;
+        width: 90%;
     }
 
     .priceanddiscount {
